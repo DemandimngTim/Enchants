@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "gdg",
+    "ibi",
+    "gds"
+  ],
+  "key": {
+    "d": [
+      "minecraft:iron_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "s": [
+      "minecraft:fishing_rod"
+    ],
+    "i": [
+      "minecraft:iron_ingot"
+    ],
+    "g": [
+      "minecraft:salmon"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:lure": 1
+      }
+    }
+  }
+}

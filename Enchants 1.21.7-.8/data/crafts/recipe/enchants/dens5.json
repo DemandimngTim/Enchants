@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "rdc",
+    "dbd",
+    "idr"
+  ],
+  "key": {
+    "d": [
+      "minecraft:diamond_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "r": [
+      "minecraft:breeze_rod"
+    ],
+    "c": [
+      "minecraft:heavy_core"
+    ],
+    "i": [
+      "minecraft:iron_block"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:density": 5
+      }
+    }
+  }
+}

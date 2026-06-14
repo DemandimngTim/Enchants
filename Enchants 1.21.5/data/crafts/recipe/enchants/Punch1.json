@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "gdn",
+    "ibi",
+    "ndj"
+  ],
+  "key": {
+    "d": [
+      "minecraft:diamond_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "i": [
+      "minecraft:iron_block"
+    ],
+    "g": [
+      "minecraft:bow"
+    ],
+    "j": [
+      "minecraft:arrow"
+    ],
+    "n": [
+      "minecraft:dispenser"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:punch": 1
+      }
+    }
+  }
+}

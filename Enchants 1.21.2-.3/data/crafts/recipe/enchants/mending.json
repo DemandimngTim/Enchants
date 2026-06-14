@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "gdg",
+    "ibi",
+    "gds"
+  ],
+  "key": {
+    "d": [
+      "minecraft:diamond_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "s": [
+      "minecraft:netherite_ingot"
+    ],
+    "i": [
+      "minecraft:diamond_block"
+    ],
+    "g": [
+      "minecraft:experience_bottle"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:mending": 1
+      }
+    }
+  }
+}

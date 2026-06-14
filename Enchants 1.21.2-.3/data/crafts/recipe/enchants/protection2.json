@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "idf",
+    "dbd",
+    "fdi"
+  ],
+  "key": {
+    "d": [
+      "minecraft:iron_ingot"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "f": [
+      "minecraft:golden_chestplate",
+      "minecraft:leather_boots"
+    ],
+    "i": [
+      "minecraft:leather_boots",
+      "minecraft:golden_chestplate"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:protection": 2
+      }
+    }
+  }
+}

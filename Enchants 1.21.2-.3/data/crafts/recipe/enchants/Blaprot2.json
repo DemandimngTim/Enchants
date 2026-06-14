@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "rdr",
+    "dbd",
+    "rdr"
+  ],
+  "key": {
+    "d": [
+      "minecraft:iron_ingot"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "r": [
+      "minecraft:gunpowder"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:blast_protection": 2
+      }
+    }
+  }
+}

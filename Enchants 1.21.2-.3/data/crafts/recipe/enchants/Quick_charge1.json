@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "gdj",
+    "ibi",
+    "jdj"
+  ],
+  "key": {
+    "d": [
+      "minecraft:iron_ingot"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "i": [
+      "minecraft:iron_ingot"
+    ],
+    "g": [
+      "minecraft:bow"
+    ],
+    "j": [
+      "minecraft:sugar"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:quick_charge": 1
+      }
+    }
+  }
+}

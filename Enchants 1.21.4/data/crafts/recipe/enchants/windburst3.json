@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "ldl",
+    "ibi",
+    "ldl"
+  ],
+  "key": {
+    "d": [
+      "minecraft:diamond_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "i": [
+      "minecraft:iron_block"
+    ],
+    "l": [
+      "minecraft:wind_charge"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:wind_burst": 3
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "wdj",
+    "ibi",
+    "jdw"
+  ],
+  "key": {
+    "d": [
+      "minecraft:diamond_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "i": [
+      "minecraft:diamond_block"
+    ],
+    "g": [
+      "minecraft:prismarine_shard"
+    ],
+    "j": [
+      "minecraft:diamond_sword"
+    ],
+    "w": [
+      "minecraft:iron_sword"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:sharpness": 5
+      }
+    }
+  }
+}

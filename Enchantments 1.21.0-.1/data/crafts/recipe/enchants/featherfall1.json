@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "tot",
+    "dbd",
+    "rot"
+  ],
+  "key": {
+    "d": [
+      "minecraft:coal"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "r": [
+      "minecraft:iron_boots"
+    ],
+    "o": [
+      "minecraft:iron_ingot"
+    ],
+    "t": [
+      "minecraft:feather"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:feather_falling": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "gda",
+    "ibi",
+    "ads"
+  ],
+  "key": {
+    "d": [
+      "minecraft:diamond_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "s": [
+      "minecraft:prismarine"
+    ],
+    "i": [
+      "minecraft:iron_block"
+    ],
+    "a": [
+      "minecraft:comparator"
+    ],
+    "g": [
+      "minecraft:arrow"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:loyalty": 3
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "fdf",
+    "dbd",
+    "fdi"
+  ],
+  "key": {
+    "d": [
+      "minecraft:iron_ingot"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "f": [
+      "minecraft:flint_and_steel"
+    ],
+    "i": [
+      "iron_chestplate"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:fire_protection": 2
+      }
+    }
+  }
+}

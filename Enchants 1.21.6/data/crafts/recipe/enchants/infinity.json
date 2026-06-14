@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "sda",
+    "ibd",
+    "ads"
+  ],
+  "key": {
+    "d": [
+      "minecraft:diamond_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "s": [
+      "minecraft:dispenser"
+    ],
+    "i": [
+      "minecraft:diamond_block"
+    ],
+    "a": [
+      "minecraft:arrow"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:infinity": 1
+      }
+    }
+  }
+}

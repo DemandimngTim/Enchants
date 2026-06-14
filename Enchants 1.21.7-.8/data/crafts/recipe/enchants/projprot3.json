@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "idr",
+    "dbd",
+    "cdr"
+  ],
+  "key": {
+    "d": [
+      "minecraft:iron_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "f": [
+      "minecraft:arrow"
+    ],
+    "i": [
+      "minecraft:arrow"
+    ],
+    "c": [
+      "minecraft:crossbow"
+    ],
+    "r": [
+      "minecraft:bow"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:projectile_protection": 3
+      }
+    }
+  }
+}

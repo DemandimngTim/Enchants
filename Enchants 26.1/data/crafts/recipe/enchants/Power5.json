@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "gdk",
+    "ibi",
+    "jdg"
+  ],
+  "key": {
+    "d": [
+      "minecraft:diamond_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "i": [
+      "minecraft:diamond_block"
+    ],
+    "g": [
+      "minecraft:bow"
+    ],
+    "j": [
+      "minecraft:spectral_arrow"
+    ],
+    "k": [
+      "minecraft:tnt"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:power": 5
+      }
+    }
+  }
+}

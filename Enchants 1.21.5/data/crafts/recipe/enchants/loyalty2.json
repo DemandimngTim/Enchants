@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "gda",
+    "ibi",
+    "ads"
+  ],
+  "key": {
+    "d": [
+      "minecraft:iron_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "s": [
+      "minecraft:prismarine_shard"
+    ],
+    "i": [
+      "minecraft:iron_block"
+    ],
+    "a": [
+      "minecraft:repeater"
+    ],
+    "g": [
+      "minecraft:arrow"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:loyalty": 2
+      }
+    }
+  }
+}

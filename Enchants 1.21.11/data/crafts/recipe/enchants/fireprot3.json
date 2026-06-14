@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "fdl",
+    "dbd",
+    "idf"
+  ],
+  "key": {
+    "l": [
+      "minecraft:lava_bucket"
+    ],
+    "d": [
+      "minecraft:iron_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "f": [
+      "minecraft:flint_and_steel"
+    ],
+    "i": [
+      "minecraft:iron_chestplate"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:fire_protection": 3
+      }
+    }
+  }
+}

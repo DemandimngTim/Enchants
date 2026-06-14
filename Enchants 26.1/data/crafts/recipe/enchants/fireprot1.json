@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "fdf",
+    "dbd",
+    "fdi"
+  ],
+  "key": {
+    "d": [
+      "minecraft:coal"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "f": [
+      "minecraft:charcoal"
+    ],
+    "i": [
+      "minecraft:leather_chestplate"
+    ]  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:fire_protection": 1
+      }
+    }
+  }
+}

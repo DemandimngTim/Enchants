@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "cir",
+    "dbd",
+    "ric"
+  ],
+  "key": {
+    "d": [
+      "minecraft:diamond_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "r": [
+      "minecraft:dispenser"
+    ],
+    "c": [
+      "minecraft:lava_bucket"
+    ],
+    "i": [
+      "minecraft:iron_block"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:vanishing_curse": 1
+      }
+    }
+  }
+}

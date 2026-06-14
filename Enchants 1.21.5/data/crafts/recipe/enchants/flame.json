@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "toa",
+    "dbd",
+    "fot"
+  ],
+  "key": {
+    "d": [
+      "minecraft:iron_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "o": [
+      "minecraft:iron_block"
+    ],
+    "t": [
+      "minecraft:lava_bucket"
+    ],
+    "f": [
+      "minecraft:bow"
+    ],
+    "a": [
+      "minecraft:arrow"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "flame": 1
+      }
+    }
+  }
+}

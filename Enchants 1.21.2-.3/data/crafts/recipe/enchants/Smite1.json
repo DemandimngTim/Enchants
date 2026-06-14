@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "ldf",
+    "ibi",
+    "wdf"
+  ],
+  "key": {
+    "d": [
+      "minecraft:iron_nugget"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "i": [
+      "minecraft:coal"
+    ],
+    "w": [
+      "minecraft:wooden_sword"
+    ],
+    "l": [
+      "minecraft:rotten_flesh"
+    ],
+    "f": [
+      "minecraft:rotten_flesh"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:smite": 1
+      }
+    }
+  }
+}

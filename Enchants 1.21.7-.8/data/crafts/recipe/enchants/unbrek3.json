@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "ldl",
+    "ibi",
+    "ldl"
+  ],
+  "key": {
+    "d": [
+      "minecraft:diamond"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "i": [
+      "minecraft:diamond"
+    ],
+    "l": [
+      "minecraft:iron_block"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:unbreaking": 3
+      }
+    }
+  }
+}

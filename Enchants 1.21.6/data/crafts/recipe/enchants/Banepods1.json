@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "cir",
+    "ibi",
+    "ric"
+  ],
+  "key": {
+    "d": [
+      "minecraft:diamond_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "r": [
+      "minecraft:stone"
+    ],
+    "c": [
+      "minecraft:stone_bricks"
+    ],
+    "i": [
+      "minecraft:coal"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:bane_of_arthropods": 1
+      }
+    }
+  }
+}

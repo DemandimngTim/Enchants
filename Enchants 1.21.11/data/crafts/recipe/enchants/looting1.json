@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "gda",
+    "ibi",
+    "ads"
+  ],
+  "key": {
+    "d": [
+      "minecraft:iron_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "s": [
+      "minecraft:iron_sword"
+    ],
+    "i": [
+      "minecraft:iron_block"
+    ],
+    "a": [
+      "minecraft:arrow"
+    ],
+    "g": [
+      "minecraft:spider_eye"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:looting": 1
+      }
+    }
+  }
+}

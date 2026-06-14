@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "tof",
+    "dbd",
+    "rot"
+  ],
+  "key": {
+    "d": [
+      "minecraft:diamond_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "r": [
+      "minecraft:lava_bucket"
+    ],
+    "o": [
+      "minecraft:iron_block"
+    ],
+    "t": [
+      "minecraft:iron_sword"
+    ],
+    "f": [
+      "minecraft:flint_and_steel"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:fire_aspect": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "hdg",
+    "ibi",
+    "cds"
+  ],
+  "key": {
+    "d": [
+      "minecraft:iron_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "s": [
+      "minecraft:fishing_rod"
+    ],
+    "i": [
+      "minecraft:diamond_block"
+    ],
+    "g": [
+      "minecraft:salmon"
+    ],
+    "c": [
+      "minecraft:cod"
+    ],
+    "h": [
+      "minecraft:pufferfish"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:lure": 3
+      }
+    }
+  }
+}

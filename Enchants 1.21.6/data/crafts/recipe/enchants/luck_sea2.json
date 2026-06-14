@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "gdc",
+    "ibi",
+    "ads"
+  ],
+  "key": {
+    "d": [
+      "minecraft:iron_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "s": [
+      "minecraft:prismarine_shard"
+    ],
+    "i": [
+      "minecraft:iron_block"
+    ],
+    "a": [
+      "minecraft:tropical_fish"
+    ],
+    "g": [
+      "minecraft:pufferfish"
+    ],
+    "c": [
+      "minecraft:cod"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:luck_of_the_sea": 2
+      }
+    }
+  }
+}

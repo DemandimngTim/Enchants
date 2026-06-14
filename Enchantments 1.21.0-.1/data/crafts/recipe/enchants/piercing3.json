@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "hdg",
+    "ibi",
+    "jdg"
+  ],
+  "key": {
+    "d": [
+      "minecraft:iron_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "i": [
+      "minecraft:iron_block"
+    ],
+    "g": [
+      "minecraft:bow"
+    ],
+    "h": [
+      "minecraft:end_rod"
+    ],
+    "j": [
+      "minecraft:end_rod"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:piercing": 3
+      }
+    }
+  }
+}

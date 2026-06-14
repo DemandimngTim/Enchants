@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "jdw",
+    "ibi",
+    "wdj"
+  ],
+  "key": {
+    "d": [
+      "minecraft:iron_ingot"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "i": [
+      "minecraft:iron_ingot"
+    ],
+    "w": [
+      "minecraft:iron_sword"
+    ],
+    "j": [
+      "minecraft:stone_sword"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:sharpness": 2
+      }
+    }
+  }
+}

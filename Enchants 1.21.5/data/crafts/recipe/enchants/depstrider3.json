@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "tor",
+    "dbd",
+    "rot"
+  ],
+  "key": {
+    "d": [
+      "minecraft:diamond_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "r": [
+      "minecraft:water_bucket"
+    ],
+    "o": [
+      "minecraft:iron_block"
+    ],
+    "t": [
+      "minecraft:iron_boots"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:depth_strider": 3
+      }
+    }
+  }
+}

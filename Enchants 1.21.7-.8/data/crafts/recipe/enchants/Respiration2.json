@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "gdj",
+    "ibi",
+    "wdw"
+  ],
+  "key": {
+    "d": [
+      "minecraft:diamond_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "i": [
+      "minecraft:iron_block"
+    ],
+    "g": [
+      "minecraft:diamond_helmet"
+    ],
+    "j": [
+      "minecraft:water_bucket"
+    ],
+    "w": [
+      "minecraft:glass"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:respiration": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "tot",
+    "dbd",
+    "rot"
+  ],
+  "key": {
+    "d": [
+      "minecraft:iron_ingot"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "r": [
+      "minecraft:water_bucket"
+    ],
+    "o": [
+      "minecraft:iron_ingot"
+    ],
+    "t": [
+      "minecraft:leather_boots"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:depth_strider": 1
+      }
+    }
+  }
+}

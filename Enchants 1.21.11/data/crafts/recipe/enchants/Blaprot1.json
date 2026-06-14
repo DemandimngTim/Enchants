@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "cdr",
+    "dbd",
+    "rdc"
+  ],
+  "key": {
+    "d": [
+      "minecraft:coal"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "r": [
+      "minecraft:gunpowder"
+    ],
+    "c": [
+      "minecraft:charcoal"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:blast_protection": 1
+      }
+    }
+  }
+}

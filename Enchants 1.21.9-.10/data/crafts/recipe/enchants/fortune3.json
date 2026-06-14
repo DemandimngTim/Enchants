@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "tda",
+    "dbd",
+    "fdt"
+  ],
+  "key": {
+    "d": [
+      "minecraft:diamond_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "t": [
+      "minecraft:iron_pickaxe"
+    ],
+    "f": [
+      "minecraft:diamond_pickaxe"
+    ],
+    "a": [
+      "minecraft:diamond"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:fortune": 3
+      }
+    }
+  }
+}

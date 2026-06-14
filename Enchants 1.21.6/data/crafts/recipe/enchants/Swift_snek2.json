@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "ld",
+    "ibi",
+    "wdl"
+  ],
+  "key": {
+    "d": [
+      "minecraft:diamond"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "i": [
+      "minecraft:diamond"
+    ],
+    "w": [
+      "minecraft:iron_leggings"
+    ],
+    "l": [
+      "minecraft:sugar"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:swift_sneak": 2
+      }
+    }
+  }
+}

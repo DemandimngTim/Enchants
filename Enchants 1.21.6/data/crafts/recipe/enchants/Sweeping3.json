@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "ldl",
+    "ibi",
+    "wdl"
+  ],
+  "key": {
+    "d": [
+      "minecraft:diamond"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "i": [
+      "minecraft:iron_block"
+    ],
+    "w": [
+      "minecraft:diamond_sword"
+    ],
+    "l": [
+      "minecraft:skeleton_skull",
+      "minecraft:creeper_head",
+      "minecraft:dragon_head",
+      "minecraft:piglin_head",
+      "minecraft:zombie_head",
+      "minecraft:wither_skeleton_skull"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:sweeping_edge": 3
+      }
+    }
+  }
+}

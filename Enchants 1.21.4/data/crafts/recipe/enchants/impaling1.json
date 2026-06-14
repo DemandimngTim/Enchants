@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "sda",
+    "ibd",
+    "adt"
+  ],
+  "key": {
+    "d": [
+      "minecraft:coal"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "a": [
+      "minecraft:prismarine_shard"
+    ],
+    "s": [
+      "minecraft:stone_sword"
+    ],
+    "i": [
+      "minecraft:iron_ingot"
+    ],
+    "t": [
+      "stone_sword"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:impaling": 1
+      }
+    }
+  }
+}

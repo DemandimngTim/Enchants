@@ -1,0 +1,38 @@
+    {
+  "type": "minecraft:crafting_shaped",
+  "group": "enchants",
+  "category": "equipment",
+  "pattern": [
+    "jdf",
+    "ibi",
+    "wdj"
+  ],
+  "key": {
+    "d": [
+      "minecraft:iron_block"
+    ],
+    "b": [
+      "minecraft:book"
+    ],
+    "i": [
+      "minecraft:diamond_block"
+    ],
+    "w": [
+      "minecraft:diamond"
+    ],
+    "j": [
+      "minecraft:iron_pickaxe"
+    ],
+    "f": [
+      "minecraft:cobbled_deepslate"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:silk_touch": 1
+      }
+    }
+  }
+}

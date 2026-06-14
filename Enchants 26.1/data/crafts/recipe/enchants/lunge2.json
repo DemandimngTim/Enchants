@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "pattern": [
+    "awa",
+    "sds",
+    "awa"
+  ],
+  "key": {
+    "a": [
+      "minecraft:iron_block"
+    ],
+    "w": [
+      "minecraft:sticky_piston"
+    ],
+    "d": [
+      "book"
+    ],
+    "s": [
+      "minecraft:slime_ball"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:lunge": 2
+      }
+    }
+  }
+}
